@@ -1,0 +1,77 @@
+2019-03-24 23:26:42.648  INFO 2858 --- [main] c.app.prometheus.PrometheusApplication   : Starting PrometheusApplication on macs-MacBook-Pro.local with PID 2858 (/Users/ajebodeveloper/IdeaProjects/prometheus/target/classes started by ajebodeveloper in /Users/ajebodeveloper/IdeaProjects/prometheus)
+2019-03-24 23:26:42.651  INFO 2858 --- [main] c.app.prometheus.PrometheusApplication   : No active profile set, falling back to default profiles: default
+2019-03-24 23:26:43.709  INFO 2858 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 23:26:43.773  INFO 2858 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces.
+2019-03-24 23:26:44.287  INFO 2858 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$565bf167] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 23:26:44.775  INFO 2858 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-03-24 23:26:44.806  INFO 2858 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 23:26:44.807  INFO 2858 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-24 23:26:44.818  INFO 2858 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ajebodeveloper/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-24 23:26:44.940  INFO 2858 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 23:26:44.940  INFO 2858 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2249 ms
+2019-03-24 23:26:45.492  INFO 2858 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-24 23:26:45.647  INFO 2858 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-24 23:26:45.708  INFO 2858 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-24 23:26:45.769  INFO 2858 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-24 23:26:45.771  INFO 2858 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-24 23:26:45.947  INFO 2858 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-24 23:26:46.095  INFO 2858 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-03-24 23:26:46.834  INFO 2858 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@464400b3'
+2019-03-24 23:26:46.837  INFO 2858 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-24 23:26:47.669  WARN 2858 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-24 23:26:47.829  INFO 2858 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 23:26:48.087  INFO 2858 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 23:26:48.520  INFO 2858 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-24 23:26:48.542  INFO 2858 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-03-24 23:26:48.551  INFO 2858 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-24 23:26:48.616  INFO 2858 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-03-24 23:26:48.619  INFO 2858 --- [main] c.app.prometheus.PrometheusApplication   : Started PrometheusApplication in 21.436 seconds (JVM running for 22.186)
+2019-03-24 23:28:35.166  INFO 2858 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 23:28:35.167  INFO 2858 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 23:28:35.177  INFO 2858 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-03-24 23:29:31.328  INFO 2858 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 23:29:31.330  INFO 2858 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-24 23:29:31.331  INFO 2858 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-03-24 23:29:31.352  INFO 2858 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-24 23:29:31.354  INFO 2858 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-03-24 23:29:50.933  INFO 2875 --- [main] c.app.prometheus.PrometheusApplication   : Starting PrometheusApplication on macs-MacBook-Pro.local with PID 2875 (/Users/ajebodeveloper/IdeaProjects/prometheus/target/classes started by ajebodeveloper in /Users/ajebodeveloper/IdeaProjects/prometheus)
+2019-03-24 23:29:50.936  INFO 2875 --- [main] c.app.prometheus.PrometheusApplication   : No active profile set, falling back to default profiles: default
+2019-03-24 23:29:51.800  INFO 2875 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 23:29:51.858  INFO 2875 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 1 repository interfaces.
+2019-03-24 23:29:52.288  INFO 2875 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$956be250] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 23:29:52.696  INFO 2875 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2019-03-24 23:29:52.722  INFO 2875 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 23:29:52.722  INFO 2875 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-24 23:29:52.732  INFO 2875 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/ajebodeveloper/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-03-24 23:29:52.824  INFO 2875 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 23:29:52.824  INFO 2875 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1853 ms
+2019-03-24 23:29:53.317  INFO 2875 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-24 23:29:53.498  INFO 2875 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-24 23:29:53.559  INFO 2875 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-03-24 23:29:53.621  INFO 2875 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-03-24 23:29:53.622  INFO 2875 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-03-24 23:29:53.765  INFO 2875 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-03-24 23:29:53.916  INFO 2875 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-03-24 23:29:54.480  INFO 2875 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@131ba005'
+2019-03-24 23:29:54.483  INFO 2875 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-24 23:29:55.055  WARN 2875 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-24 23:29:55.169  INFO 2875 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 23:29:55.346  INFO 2875 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 23:29:55.616  INFO 2875 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-24 23:29:55.634  INFO 2875 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-03-24 23:29:55.645  INFO 2875 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-24 23:29:55.833  INFO 2875 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2019-03-24 23:29:55.836  INFO 2875 --- [main] c.app.prometheus.PrometheusApplication   : Started PrometheusApplication in 20.308 seconds (JVM running for 20.737)
+2019-03-24 23:31:24.422  INFO 2875 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 23:31:24.423  INFO 2875 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 23:31:24.433  INFO 2875 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-03-24 23:31:54.700  INFO 2875 --- [http-nio-9000-exec-9] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-03-24 23:32:21.810  INFO 2875 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 23:32:21.812  INFO 2875 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-24 23:32:21.812  INFO 2875 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-03-24 23:32:21.824  INFO 2875 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-03-24 23:32:21.827  INFO 2875 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
